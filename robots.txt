@@ -1,0 +1,5 @@
+User-agent: *
+Disallow: /pages/dashboard.html
+Disallow: /pages/login.html
+Disallow: /pages/register.html
+Sitemap: https://clearnest-move-cleaning.ezhil3013.chatgpt.site/sitemap.xml

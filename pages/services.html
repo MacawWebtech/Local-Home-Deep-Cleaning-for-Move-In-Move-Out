@@ -1,0 +1,242 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Cleaning with a clear scope. | ClearNest</title>
+    <meta
+      name="description"
+      content="Cleaning with a clear scope. — thoughtful residential cleaning with clear scope and a fresh start."
+    />
+    <meta
+      property="og:title"
+      content="Cleaning with a clear scope. | ClearNest"
+    />
+    <meta property="og:type" content="website" />
+    <link rel="icon" href="../assets/favicon.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="../assets/css/bootstrap-grid.min.css" />
+    <link rel="stylesheet" href="../assets/styles.css" />
+    <link rel="stylesheet" href="../assets/css/pages.css" />
+    <script src="../assets/js/data.js" defer></script>
+    <script src="../assets/js/site.js" defer></script>
+    <link
+      rel="canonical"
+      href="https://clearnest-move-cleaning.ezhil3013.chatgpt.site/pages/services.html"
+    />
+    <meta
+      property="og:url"
+      content="https://clearnest-move-cleaning.ezhil3013.chatgpt.site/pages/services.html"
+    />
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://clearnest-move-cleaning.ezhil3013.chatgpt.site/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Cleaning with a clear scope.",
+            "item": "https://clearnest-move-cleaning.ezhil3013.chatgpt.site/pages/services.html"
+          }
+        ]
+      }
+    </script>
+  </head>
+  <body>
+    <a class="skip" href="#main">Skip to content</a>
+    <div class="notice">
+      A little less moving stress. A much fresher start.
+      <a href="../pages/book-cleaning.html">Find your clean ↗</a>
+    </div>
+    <header class="header">
+      <a class="logo" href="../index.html" aria-label="ClearNest home"
+        ><span class="logo-mark" aria-hidden="true"
+          ><svg
+            class="home-symbol"
+            xmlns="http://www.w3.org/2000/svg"
+            viewbox="0 0 32 32"
+            fill="none"
+            aria-hidden="true"
+          >
+            <path
+              d="M4 14 16 4l12 10M7 12v15h18V12M13 27v-9h6v9"
+              stroke="currentColor"
+              stroke-width="2.3"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            ></path></svg
+        ></span>
+        clearnest<span class="logo-dot">®</span></a
+      ><button
+        class="menu-toggle icon-button"
+        aria-label="Open menu"
+        aria-expanded="false"
+        aria-controls="navigation"
+      >
+        ☰
+      </button>
+      <nav id="navigation" aria-label="Main navigation">
+        <details class="nav-dropdown">
+          <summary class="">Home</summary>
+          <div class="dropdown-panel">
+            <a href="../index.html">Home 1</a
+            ><a href="../pages/home-2.html">Home 2</a>
+          </div>
+        </details>
+        <a href="../pages/book-cleaning.html">Book Now</a>
+        <details class="nav-dropdown">
+          <summary class="active">Services</summary>
+          <div class="dropdown-panel">
+            <a href="../pages/services.html">All services</a
+            ><a href="../pages/service-details.html">Service details</a
+            ><a href="../pages/pricing.html">Pricing guide</a
+            ><a href="../pages/cleaning-checklist.html">Cleaning checklist</a
+            ><a href="../pages/service-areas.html">Service areas</a>
+          </div>
+        </details>
+        <a href="../pages/gallery.html">Gallery</a>
+        <details class="nav-dropdown">
+          <summary class="">About</summary>
+          <div class="dropdown-panel">
+            <a href="../pages/about.html">Our story</a
+            ><a href="../pages/blog.html">Cleaning journal</a>
+          </div>
+        </details>
+        <a href="../pages/contact.html">Contact</a>
+      </nav>
+      <div class="tools">
+        <button
+          class="icon-button"
+          id="theme"
+          aria-label="Switch theme"
+          aria-pressed="false"
+        >
+          ◐</button
+        ><button
+          class="icon-button rtl-button"
+          id="rtl"
+          aria-label="Reverse layout"
+          aria-pressed="false"
+        >
+          RTL</button
+        ><a
+          class="account-link"
+          href="../pages/login.html"
+          aria-label="Customer account"
+          >Account ↗</a
+        ><a class="small-button" href="../pages/book-cleaning.html"
+          >Book a clean ↗</a
+        >
+      </div>
+    </header>
+    <main id="main">
+      <section
+        class="page-hero section-pad"
+        style="
+          background-image: url(&quot;../assets/images/background/services-bg.jpg&quot;);
+        "
+      >
+        <div class="page-hero-copy">
+          <p class="eyebrow">A FRESH START, BEAUTIFULLY CLEAN.</p>
+          <h1>Cleaning with a clear scope.</h1>
+          <p>
+            Explore move-in, move-out and room-specific care. Standard
+            inclusions and optional tasks are clearly separated.
+          </p>
+        </div>
+      </section>
+      <section class="section-pad">
+        <div class="filter-bar">
+          <label
+            >Find a service<input
+              type="search"
+              id="service-search"
+              placeholder="Kitchen, floors, move-out…" /></label
+          ><label
+            >Scope<select id="service-filter">
+              <option value="all">All services</option>
+              <option value="standard">Standard scope</option>
+              <option value="optional">Optional care</option>
+            </select></label
+          >
+        </div>
+        <p class="results-count" id="service-count" role="status"></p>
+        <div id="service-catalog" class="content-grid service-catalog"></div>
+      </section>
+      <section class="section-pad compact-section">
+        <div class="note-box">
+          <h3>Agree the details before the appointment.</h3>
+          <p>
+            Standard scope covers safely accessible areas. Interior appliances,
+            additional bathrooms and unusual property conditions can affect cost
+            and duration. Results depend on materials and condition.
+          </p>
+        </div>
+      </section>
+      <section class="final-cta section-pad">
+        <span class="eyebrow">YOUR ROOMS. YOUR CLEANING SCOPE.</span>
+        <h2>Choose the care your home needs.</h2>
+        <a class="button dark" href="book-cleaning.html">Choose your cleaning service ↗</a>
+      </section>
+    </main>
+    <footer class="section-pad" id="contact">
+      <div class="footer-main">
+        <div>
+          <a class="logo" href="../index.html"
+            ><span class="logo-mark" aria-hidden="true"
+              ><svg
+                class="home-symbol"
+                xmlns="http://www.w3.org/2000/svg"
+                viewbox="0 0 32 32"
+                fill="none"
+                aria-hidden="true"
+              >
+                <path
+                  d="M4 14 16 4l12 10M7 12v15h18V12M13 27v-9h6v9"
+                  stroke="currentColor"
+                  stroke-width="2.3"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                ></path></svg
+            ></span>
+            clearnest<span class="logo-dot">®</span></a
+          >
+          <p>Fresh spaces.<br />Thoughtful beginnings.</p>
+        </div>
+        <div>
+          <h3>Explore</h3>
+          <a href="../pages/services.html">Our services</a
+          ><a href="../pages/pricing.html">Pricing guide</a
+          ><a href="../pages/gallery.html">Our spaces</a
+          ><a href="../pages/about.html">Our story</a>
+        </div>
+        <div>
+          <h3>Helpful</h3>
+          <a href="../pages/cleaning-checklist.html">Cleaning checklist</a
+          ><a href="../pages/service-areas.html">Service areas</a
+          ><a href="../pages/blog.html">Cleaning journal</a
+          ><a href="../pages/contact.html">Contact us</a>
+        </div>
+        <div>
+          <h3>Your next chapter</h3>
+          <a href="../pages/book-cleaning.html">Book a cleaning</a
+          ><a href="../pages/dashboard.html">Customer dashboard</a
+          ><a href="../pages/login.html">Login</a
+          ><a href="../pages/register.html">Register</a>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>© <span id="year">2026</span> ClearNest.</span
+        ><span>A fresh start, beautifully clean.</span
+        ><a href="#main">Back to top ↑</a
+        ><a href="coming-soon.html">Service updates</a>
+      </div>
+    </footer>
+  </body>
+</html>
